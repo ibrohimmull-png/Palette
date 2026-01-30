@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    body {
+      text-align: center;
+      padding: 20px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: left;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .box {
+      width: 150px;
+      height: 150px;
+      background-color: gray;
+    }
+
+    .palette {
+      display: flex;
+      justify-content: left;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .color {
+      width: 40px;
+      height: 40px;
+      cursor: pointer;
+      border: 2px solid black;
+    }
+  </style>
+</head>
+<body>
+
+  
+  <div class="container" id="boxes">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+  </div>
+
+  
+  <div class="palette" id="boxPalette"></div>
+
+  
+  <div class="palette" id="bgPalette"></div>
+
+ <script src="main.js"></script>
+
+</body>
+</html>
