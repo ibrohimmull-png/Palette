@@ -1,4 +1,4 @@
-let colors = ["blue", "red", "green", "yellow"];
+let colors = ["blue", "red", "green", "pink"];
 
     let boxes = document.querySelectorAll(".box");
     let boxPalette = document.getElementById("boxPalette");
